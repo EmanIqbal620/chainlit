@@ -1,0 +1,11 @@
+[justifyContent="flex-start"] {
+  justify-content: flex-end !important;
+}
+
+[justifyContent="flex-start"] + [class] {
+  text-align: right !important;
+}
+
+.MuiStack-root > div:has([justifyContent="flex-start"]) {
+  justify-content: flex-end !important;
+}

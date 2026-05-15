@@ -1,0 +1,21 @@
+[project]
+name = "first-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Eman__Iqbal", email = "160255293+EmanIqbal620@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.5.5",
+    "dotenv>=0.9.9",
+    "openai-agents>=0.0.17",
+]
+
+[project.scripts]
+first-agent = "first_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
